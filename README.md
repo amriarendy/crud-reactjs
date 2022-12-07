@@ -59,21 +59,25 @@
 ### url data
 
 - get all data users
-- method: GET
-- http://localhost:5000/users
+
+  - method: GET
+  - http://localhost:5000/users
 
 - get data users by id
-- method: GET
-- http://localhost:5000/users/id
+
+  - method: GET
+  - http://localhost:5000/users/id
 
 - create data users
-- method: POST
-- http://localhost:5000/users
+
+  - method: POST
+  - http://localhost:5000/users
 
 - update data users by id
-- method: PATCH
-- http://localhost:5000/users/id
+
+  - method: PATCH
+  - http://localhost:5000/users/id
 
 - delete data users by id
-- method: DELETE
-- http://localhost:5000/users/id
+  - method: DELETE
+  - http://localhost:5000/users/id
