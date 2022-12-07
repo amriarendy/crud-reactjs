@@ -17,23 +17,32 @@ rest-client or postman
 database
 mysql
 
+how to running
+cd backend
+node app.js or nodemon app
+// port 5000
+
+cd frontend
+npm start
+// port 3000
+
 slug
 get all data users
 method: GET
-http://localhost:3000/users
+http://localhost:5000/users
 
 get data users by id
 method: GET
-http://localhost:3000/users/id
+http://localhost:5000/users/id
 
 create data users
 method: POST
-http://localhost:3000/users
+http://localhost:5000/users
 
 update data users by id
 method: PATCH
-http://localhost:3000/users/id
+http://localhost:5000/users/id
 
 delete data users by id
 method: DELETE
-http://localhost:3000/users/id
+http://localhost:5000/users/id
