@@ -56,7 +56,34 @@
   - npm start
   - port 3000
 
-### url data
+### method and parameter
+
+<table>
+    <tr>
+        <th>name</th>
+        <th>method</th>
+        <th>parameters</th>
+        <th>url</th>
+    </tr>
+    <tr>
+        <td>get all data users</td>
+        <td>GET</td>
+        <td>-</td>
+        <td>http://localhost:5000/users</td>
+    </tr>
+    <tr>
+        <td>get data users by id</td>
+        <td>GET</td>
+        <td>id</td>
+        <td>http://localhost:5000/users/id</td>
+    </tr>
+    <tr>
+        <td>create data users</td>
+        <td>POST</td>
+        <td>name,email,gender</td>
+        <td>http://localhost:5000/users</td>
+    </tr>
+</table>
 
 - get all data users
 
